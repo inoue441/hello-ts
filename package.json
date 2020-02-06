@@ -2,7 +2,7 @@
   "name": "hello-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prebuild": "rimraf dist",
