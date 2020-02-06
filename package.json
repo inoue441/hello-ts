@@ -2,8 +2,10 @@
   "name": "hello-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
   "scripts": {
+    "build": "tsc",
+    "prebuild": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +14,6 @@
   "devDependencies": {
     "rimraf": "^3.0.1",
     "typescript": "^3.7.5"
-  }
+  },
+  "files": ["dist"]
 }
