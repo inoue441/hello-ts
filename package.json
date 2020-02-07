@@ -5,8 +5,16 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "fix": "run-p fix:*",
+    "fix:eslint": "npm run lint:eslint -- --fix",
+    "fix:prettier": "npm run lint:prettier -- --write",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint --ext js,ts .",
+    "lint:prettier": "prettier -l \"**/*.{json,md,yml}\"",
+    "lint:type": "tsc --noEmit",
     "prebuild": "rimraf dist",
-    "test": "jest"
+    "test": "run-s lint test:*",
+    "test:unit": "jest"
   },
   "keywords": [],
   "author": "",
