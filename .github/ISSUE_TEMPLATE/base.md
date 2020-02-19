@@ -1,6 +1,6 @@
 ---
-name: 基本テンプレート
-about: ''
+name: 汎用 Issue
+about: 汎用的に使えるテンプレートです
 title: ''
 labels: ''
 assignees: ''
