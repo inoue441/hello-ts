@@ -2,7 +2,7 @@
 name: 汎用 Issue
 about: 汎用的に使えるテンプレートです
 title: ''
-labels: 1.不具合
+labels: bug
 assignees: ''
 
 ---
