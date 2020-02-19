@@ -1,5 +1,5 @@
 ---
-name: 基本
+name: 基本テンプレート
 about: ''
 title: ''
 labels: ''
