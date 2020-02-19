@@ -1,9 +1,7 @@
 ---
-name: 汎用 Issue
-about: 汎用的に使えるテンプレートです
-title: ''
-labels: bug
-assignees: ''
+name: 機能追加・変更
+about: 機能追加・変更はこちら
+labels: 1.機能追加, 1.機能変更
 
 ---
 # 問題
